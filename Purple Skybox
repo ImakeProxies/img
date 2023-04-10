@@ -1,0 +1,22 @@
+			local sky = Instance.new("Sky",game.Lighting)
+			sky.MoonAngularSize = "0"
+			sky.MoonTextureId = "rbxassetid://6444320592"
+			sky.SkyboxBk = "rbxassetid://8107841671"
+			sky.SkyboxDn = "rbxassetid://6444884785"
+			sky.SkyboxFt = "rbxassetid://8107841671"
+			sky.SkyboxLf = "rbxassetid://8107841671"
+			sky.SkyboxRt = "rbxassetid://8107841671"
+			sky.SkyboxUp = "rbxassetid://8107849791"
+			sky.SunTextureId = "rbxassetid://6196665106"
+		else
+			local sky2 = Instance.new("Sky",game.Lighting)
+			sky2.MoonAngularSize = "11"
+			sky2.MoonTextureId = "rbxasset://sky/moon.jpg"
+			sky2.SkyboxBk = "rbxassetid://7018684000"
+			sky2.SkyboxDn = "rbxassetid://6334928194"
+			sky2.SkyboxFt = "rbxassetid://7018684000"
+			sky2.SkyboxLf = "rbxassetid://7018684000"
+			sky2.SkyboxRt = "rbxassetid://7018684000"
+			sky2.SkyboxUp = "rbxassetid://7018689553"
+			sky2.SunTextureId = "rbxasset://sky/sun.jpg"
+			sky2.SunAngularSize = "21"
